@@ -1,58 +1,29 @@
-### Modul Oluşturmak
-
-```sh
-go mod init [module_name]
-```
-
-### Modul Ekleme
-
-```sh
-# go geom modulunu projeye ekler
-go get github.com/twpayne/go-geom
-```
-
-### Modulu kullanma
-
-```go
-package main
-
-import "github.com/twpayne/go-geom"
-
-func main() {
-	//geom modulu altındaki newMultiPolygon fonksiyonun cagırır
-	geom.NewMultiPolygon()
-}
-
-```
-
-### Kullanılmayan Modulu Kaldırma
-
-```sh
-go mod tidy
-```
-
-### Docker Kurulumu
-
-https://docs.docker.com/desktop/install/ubuntu/
-
-- Launch Docker Desktop
-
-```sh
-systemctl --user start docker-desktop
-```
-
-- Get Props
-
-```sh
-docker compose version
-Docker Compose version v2.17.3
-
-docker --version
-Docker version 23.0.5, build bc4487a
-
-docker version
-Client: Docker Engine - Community
- Cloud integration: v1.0.31
- Version:           23.0.5
- API version:       1.42
-```
+<ol>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/1_variables">Variables</a>: Temel değişken kavramları ve kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/2_arrays_slices">Arrays and Slices</a>: Diziler ve dilimlerle ilgili kavramlar.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/3_if_statments">If Statements</a>: Koşul ifadeleri kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/4_for_loops">For Loops</a>: For döngüsü kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/5_maps">Maps</a>: Haritaların (map) kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/6_functions">Functions</a>: Fonksiyonların tanımlanması ve kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/7_pointers">Pointers</a>: İşaretçiler (pointers) ve referanslarla ilgili konular.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/8_structs">Structs</a>: Yapılar (structs) ve veri yapıları.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/9_interfaces_vol1">Interfaces Vol. 1</a>: Arayüzler (interfaces) - Bölüm 1.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/9_interfaces_vol2">Interfaces Vol. 2</a>: Arayüzler (interfaces) - Bölüm 2.</li>
+    <li><a href="https://github.com/furkancosgun/GoDearsNotlari/tree/master/10_interfaces_vol3">Interfaces Vol. 3</a>: Arayüzler (interfaces) - Bölüm 3.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/11_defer">Defer</a>: Defer ifadesinin kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/12_scope_variables">Scope Variables</a>: Değişken kapsamı (scope).</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/13_modules">Modules</a>: Modül kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/14_function_literals">Function Literals</a>: Fonksiyon literallerinin (anonymous functions) kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/15_error_handling">Error Handling</a>: Hata işleme stratejileri.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/16_go_routines">Goroutines</a>: Goroutines kullanımı.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/17_unbuffered_channels_1">Unbuffered Channels - Part 1</a>: Tamponlanmamış kanallar - Bölüm 1.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/17_unbuffered_channels_2">Unbuffered Channels - Part 2</a>: Tamponlanmamış kanallar - Bölüm 2.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/18_buffered_channels_1">Buffered Channels - Part 1</a>: Tamponlu kanallar - Bölüm 1.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/18_buffered_channels_2">Buffered Channels - Part 2</a>: Tamponlu kanallar - Bölüm 2.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/19_context_1">Context - Part 1</a>: Bağlam (context) - Bölüm 1.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/19_context_2">Context - Part 2</a>: Bağlam (context) - Bölüm 2.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/19_context_3">Context - Part 3</a>: Bağlam (context) - Bölüm 3.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/20_product_api">Product API</a>: Ürün API'si uygulaması.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/21_TodoAPI">Todo API</a>: Görev (Todo) API'si uygulaması.</li>
+    <li><a href="https://github.com/furkancosgun/GoDersNotlari/tree/master/22_TodoAPI_V2">Todo API - Version 2</a>: Görev (Todo) API'si uygulamasının ikinci sürümü.</li>
+</ol>
