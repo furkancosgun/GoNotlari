@@ -1,0 +1,26 @@
+<UserList>
+   <parent>
+     <child>
+       <User>
+         <FirstName>User1</FirstName>
+         <LastName>Lastname1</LastName>
+       </User>
+       <User>
+         <FirstName>User2</FirstName>
+         <LastName>Lastname2</LastName>
+       </User>
+       <User>
+         <FirstName>User3</FirstName>
+         <LastName>Lastname3</LastName>
+       </User>
+       <User>
+         <FirstName>User4</FirstName>
+         <LastName>Lastname4</LastName>
+       </User>
+       <User>
+         <FirstName>User5</FirstName>
+         <LastName>Lastname5</LastName>
+       </User>
+     </child>
+   </parent>
+ </UserList>
