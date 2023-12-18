@@ -1,3 +1,9 @@
 go 1.21.5
 
-use ./22_TodoAPI_V2
+use (
+	./24_http_client
+	./25_tcmb_currency_api
+	./26_http_service
+	./27_json
+	./28_xml
+)
