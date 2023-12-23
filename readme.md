@@ -1,3 +1,4 @@
+# GO NOTLARI 
 <ol>
     <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/1_variables">Variables</a>: Temel değişken kavramları ve kullanımı.</li>
     <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/2_arrays_slices">Arrays and Slices</a>: Diziler ve dilimlerle ilgili kavramlar.</li>
@@ -26,4 +27,14 @@
     <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/20_product_api">Product API</a>: Ürün API'si uygulaması.</li>
     <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/21_TodoAPI">Todo API</a>: Görev (Todo) API'si uygulaması.</li>
     <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/22_TodoAPI_V2">Todo API - Version 2</a>: Görev (Todo) API'si uygulamasının ikinci sürümü.</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/23_spawning_processes">Spawning Processes</a>: Os.Exec Kullanımı</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/24_http_client">Http Client</a>: Http Servislerini Cagirma(Gunluk Kur Ornegi)</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/25_tcmb_currency_api">TCMB Currency API</a>: Gunluk Kur API Ornegi</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/26_http_service">Http Service</a>: Basit Servis</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/27_json">JSON</a>: Json Kullanimi</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/28_xml">XML</a>: XML Kullanimi</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/29_JWT_Auth">JWT Auth V1</a>: Jwt Kullanımı V1</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/30_JWT_AUTH_V2">JWT Auth V2</a>: Jwt Kullanımı V2</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/31_JWT_AUTH_V3">JWT Auth V3</a>: Jwt Kullanımı V3</li>
+    <li><a href="https://github.com/furkancosgun/GoNotlari/tree/master/32_JWT_AUTH_V4">JWT Auth V4</a>: Jwt Kullanımı V4</li>
 </ol>
